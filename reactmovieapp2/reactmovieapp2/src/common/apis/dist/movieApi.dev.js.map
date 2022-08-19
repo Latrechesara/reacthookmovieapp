@@ -1,0 +1,1 @@
+{"version":3,"sources":["movieApi.js"],"names":["axios","create","baseURL"],"mappings":";;;;;;;AAAA;;;;eACeA,eAAMC,MAAN,CAAa;AAC1BC,EAAAA,OAAO,EAAE;AADiB,CAAb,C","sourcesContent":["import axios from \"axios\";\r\nexport default axios.create({\r\n  baseURL: \"https://www.omdbapi.com\",\r\n});\r\n"],"file":"movieApi.dev.js"}
